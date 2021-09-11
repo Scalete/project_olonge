@@ -1,0 +1,38 @@
+h1, h2, h3, h4 {
+    margin: 0;
+    margin-block: unset;
+    margin-inline: unset;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.hamburger {
+	display: none;
+}
+
+body {
+    font-family: $montserrat-font;
+    min-width: 320px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    &:hover {
+        color: $main-color;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}

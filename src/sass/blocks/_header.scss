@@ -1,0 +1,29 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding-top: 26px;
+    &__wrapper {
+        display: flex;
+        min-width: 320px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links {
+        width: 580px;
+        max-width: 580px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.16;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        &_active {
+            color: $main-color;
+        }
+    }
+}
