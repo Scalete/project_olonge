@@ -1,5 +1,4 @@
 .header {
-    position: fixed;
     width: 100%;
     padding-top: 26px;
     &__wrapper {
@@ -22,6 +21,7 @@
         line-height: 1.16;
         letter-spacing: 0.2px;
         color: #252B42;
+        transition: color .4s;
         &_active {
             color: $main-color;
         }

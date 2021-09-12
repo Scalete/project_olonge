@@ -54,12 +54,31 @@
         }
 
         &__link {
-            font-size: 24px;
+            font-size: 28px;
             line-height: 1.16;
             color: #fff;
             &:hover {
                 color: #fff;
                 text-decoration: underline;
+            }
+        }
+    }
+
+    .promo {
+        &__title {
+            font-size: 44px;
+        }
+        &__suptitle, &__subtitle {
+            font-size: 21px;
+        }
+        &__btns {
+            margin-top: 83px;
+            flex-direction: column;
+        }
+        &__btn {
+            margin-top: 50px;
+            &:first-child {
+                margin-top: 0;
             }
         }
     }
@@ -69,11 +88,36 @@
     .container {
         max-width: 540px;
     }
+    .promo {
+        &__btns {
+            width: unset;
+        }
+        &__title {
+            font-size: 32px;
+        }
+    }
 }
 
 @media (max-width: $screen-mobile) {
     .container{
         max-width: 100%;
-        padding: 0 10px;
+        padding: 0;
     }
+
+    .promo {
+        &__title {
+            font-size: 24px;
+        }
+        &__suptitle, &__subtitle {
+            font-size: 20px;
+        }
+        &__btns {
+            margin-top: 43px;
+        }
+        &__btn {
+            margin-top: 36px;
+            width: 100%;
+        }
+    }
+
 }
