@@ -21,7 +21,7 @@
         line-height: 1.16;
         letter-spacing: 0.2px;
         color: #252B42;
-        transition: color .4s;
+        transition: color $normal;
         &_active {
             color: $main-color;
         }

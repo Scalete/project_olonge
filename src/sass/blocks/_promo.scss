@@ -3,6 +3,7 @@
     min-height: 619px;
     padding-top: 73px;
     margin-top: 28px;
+    position: relative;
 
     &__suptitle {
         font-weight: 700;
@@ -60,11 +61,26 @@
         line-height: 1.5;
         letter-spacing: 0.1px;
         color: #FFFFFF;
-        transition: background .4s;
+        transition: background $normal;
         cursor: pointer;
         &:hover {
             background: #FA4A0C;
             border: none;
+        }
+    }
+
+    .divider-block {
+        position: absolute;
+        left: 50%;
+        top: calc(49% + 21px);
+        transform: translateX(-50%);
+        max-width: 884px;
+        border-bottom: 3px solid #E4E4E4;
+    
+        &__img {
+            margin: 0 auto;
+            width: 100%;
+            object-fit: contain;
         }
     }
 }

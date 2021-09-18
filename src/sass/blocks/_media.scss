@@ -2,6 +2,12 @@
     .container {
         max-width: 960px;
     }
+
+    .promo {
+        .divider-block {
+            top: 80%;
+        }
+    }
 }
 
 @media (max-width: $screen-medium) {
@@ -117,6 +123,13 @@
         &__btn {
             margin-top: 36px;
             width: 100%;
+        }
+
+        .divider-block {
+            &__img {
+                width: 320px;
+                object-fit: unset;
+            }
         }
     }
 
