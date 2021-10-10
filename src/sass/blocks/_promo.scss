@@ -4,6 +4,7 @@
     padding-top: 73px;
     margin-top: 28px;
     position: relative;
+    z-index: 1;
 
     &__suptitle {
         font-weight: 700;
@@ -35,7 +36,7 @@
     &__btns {
         max-width: 582px;
         width: 582px;
-        margin: 54px auto 0 auto;
+        margin: 62px auto 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -66,21 +67,6 @@
         &:hover {
             background: #FA4A0C;
             border: none;
-        }
-    }
-
-    .divider-block {
-        position: absolute;
-        left: 50%;
-        top: calc(71% + 41px);
-        transform: translateX(-50%);
-        width: 884px;
-        border-bottom: 3px solid #E4E4E4;
-    
-        &__img {
-            display: block;
-            margin: 0 auto;
-            object-fit: contain;
         }
     }
 }
