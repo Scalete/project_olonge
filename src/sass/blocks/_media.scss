@@ -110,6 +110,15 @@
         }
 
     }
+
+    .footer {
+        padding-right: 4%;
+        padding-left: 4%;
+
+        &__socials {
+            padding: 0 8%;
+        }
+    }
 }
 
 @media (max-width: $screen-small) {
@@ -202,4 +211,19 @@
         }
     }
 
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+
+        &__wrapper {
+            flex-direction: column;
+            > div, h3 {
+                margin-top: 6%;
+            }
+        }
+
+        &__socials {
+            padding: 0;
+        }
+    }
 }

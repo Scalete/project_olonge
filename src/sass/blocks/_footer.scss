@@ -1,0 +1,37 @@
+.footer {
+    padding: 3.7% 11% 4.5% 14%;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__copyright {
+        font: 700 12px/ 1.5 $roboto-font;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 6%;
+    }
+
+    &__link {
+        margin-right: 19%;
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover svg path {
+            fill: #5C5C5C;
+        }
+
+        svg path {
+            transition: fill $fast;
+        }
+    }
+}
