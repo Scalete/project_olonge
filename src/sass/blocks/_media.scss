@@ -145,6 +145,16 @@
         }
 
     }
+
+    .download {
+        &__title {
+            font-size: 32px;
+        }
+    
+        &__subtitle {
+            font-size: 21px;
+        }
+    }
 }
 
 @media (max-width: $screen-mobile) {
@@ -169,7 +179,27 @@
         &__title {
             font-size: 32px;
         }
+    }
 
+    .download {
+        &__btns {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        &__btn {
+            &:last-child {
+                margin: 8% 0 0 0;
+            }
+        }
+
+        &__title {
+            font-size: 28px;
+        }
+    
+        &__subtitle {
+            font-size: 19px;
+        }
     }
 
 }

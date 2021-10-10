@@ -62,7 +62,7 @@
         line-height: 1.5;
         letter-spacing: 0.1px;
         color: #FFFFFF;
-        transition: background $normal;
+        transition: background $normal, border $normal;
         cursor: pointer;
         &:hover {
             background: #FA4A0C;
